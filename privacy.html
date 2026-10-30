@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How AnimatedFilms accesses, uses and stores data for the Wonder Unpacked Studio production workflow.">
+  <title>Privacy policy | AnimatedFilms</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Wonder Unpacked Studio</a><nav aria-label="Main"><a href="./">AnimatedFilms</a></nav></header>
+  <main>
+    <p class="eyebrow">AnimatedFilms</p><h1>Privacy policy</h1><p class="updated">Last updated: October 30, 2026</p>
+    <p>This policy describes the owner-operated AnimatedFilms production and YouTube publishing workflow for Wonder Unpacked Studio. Contact: <a href="mailto:nimandmallow.studio@gmail.com">nimandmallow.studio@gmail.com</a>.</p>
+    <section><h2>Information we access</h2>
+      <p>When an authorized operator connects a Google account, the app receives OAuth access and refresh credentials. It uses YouTube APIs to read the connected channel's identity and video details, including video identifiers, titles, descriptions, thumbnails, privacy and processing status, publication times and caption tracks.</p>
+      <p>The app sends the operator's videos, captions, titles, descriptions and related publishing settings to YouTube when authorized. If the operator separately enables YouTube Analytics access, it can also retrieve available video performance statistics, such as views, watch duration and subscriber changes. Analytics access is optional.</p>
+    </section>
+    <section><h2>How information is used</h2>
+      <p>Information is used to verify the intended channel, prepare and check uploads, manage captions and video details, schedule approved videos, avoid duplicate jobs, and report results to the operator. Optional analytics are used to evaluate the studio's videos.</p>
+      <p>Google user data is not sold, used for advertising, or used to train general-purpose AI models. The workflow does not send OAuth credentials or retrieved private YouTube account data to its narration or artwork generation providers.</p>
+    </section>
+    <section><h2>Storage and access</h2>
+      <p>The desktop workflow stores OAuth credentials in local credential files and operational records in local files and a local database on the operator's computer. Operational records can include channel/video identifiers, episode metadata, upload state, caption checks, timestamps and optional analytics results.</p>
+      <p>Access depends on the computer's account and filesystem permissions. Credential files and the operational database are excluded from the project's Git repository. Selected episode metadata and sanitized verification records can be included in project history; credentials and private upload-session URLs must not be included.</p>
+    </section>
+    <section><h2>Service providers and public content</h2>
+      <p>Google and YouTube process information sent to their services under their own policies. Publishing a video or its metadata makes that content available according to its selected YouTube visibility. A private upload is not made public by this website.</p>
+      <p>Separately, the production workflow can send operator-selected scripts, artwork and media prompts to generation providers such as Higgsfield to create production assets. Those submissions are distinct from the app's Google account access.</p>
+      <p>This informational website is hosted by GitHub Pages. We have not added analytics, advertising, tracking scripts, forms or cookies to these pages. GitHub may process visitor connection information to operate its hosting service; see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+    </section>
+    <section><h2>Retention, deletion and revoking access</h2>
+      <p>Local credentials are retained while the connection is needed. Operational records are retained for production history, recovery and duplicate prevention until the operator removes them or they are no longer needed. Project history or backups may retain previously recorded metadata.</p>
+      <p>You can revoke the app's access through <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revocation prevents further authorized API access; it does not itself delete local records, remove uploaded videos, or cancel a publication already scheduled on YouTube. The operator should stop the local worker and manage existing schedules in YouTube Studio when disconnecting.</p>
+      <p>To request deletion of locally stored account-related records or help disconnecting the workflow, email <a href="mailto:nimandmallow.studio@gmail.com">nimandmallow.studio@gmail.com</a>. The operator can remove the local credentials, associated records and relevant backups. Manage copies of uploaded content directly in YouTube as needed.</p>
+    </section>
+    <section><h2>Google API data commitment</h2><p>AnimatedFilms' use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p></section>
+    <section><h2>Changes</h2><p>We will update this page when the workflow's data practices change and revise the date above.</p></section>
+  </main>
+  <footer><a href="./">AnimatedFilms home</a> · Wonder Unpacked Studio</footer>
+</body>
+</html>
